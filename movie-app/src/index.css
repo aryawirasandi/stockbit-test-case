@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  @apply p-5 max-w-full
+}
+
+.form-control {
+  @apply px-3 py-2 rounded-full outline-none text-black focus:shadow-md focus:outline-none placeholder-opacity-20 placeholder-black text-base;
+}
