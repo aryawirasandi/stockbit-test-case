@@ -13,3 +13,7 @@
 body{
   @apply bg-gray-100 h-full;
 }
+
+.badge{
+  @apply p-2 rounded-full border-none bg-blue-400 text-white text-center min-w-1/2 mx-2 sm:min-w-1/4 hover:bg-blue-300 hover:opacity-50
+}

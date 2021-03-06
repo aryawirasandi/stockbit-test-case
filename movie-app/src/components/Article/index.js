@@ -17,6 +17,16 @@ const Article = () => {
                            This is the movie of film one
                         </p>
                     </div>
+                    <div className="text-justify">
+                        <p>
+                           Year : 2016
+                        </p>
+                    </div>
+                    <div className="text-justify">
+                        <p>
+                           IMDBId : tt4853102
+                        </p>
+                    </div>
                 </div>
             </div>
         </Card>

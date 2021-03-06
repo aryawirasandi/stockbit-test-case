@@ -1,11 +1,16 @@
 import Article from "../components/Article";
+import HeadingText from "../components/HeadingText";
+import Badge from "../components/Badge";
 const Home = () => {
     return (
         <div className="container">
-            <div className="text-left my-3">
-                <h2 className="font-extrabold text-3xl">Latest Movies</h2>
+            <HeadingText title="Latest Movies"/>
+            <div className="flex overflow-scroll my-5">
+                <Badge title="Movie"/>
+                <Badge title="Series"/>
+                <Badge title="Episode"/>
             </div>
-            <div className="flex justify-between overflow-scroll">
+            <div className="flex justify-between flex-wrap">
                 <Article/>
             </div>
         </div>
