@@ -1,30 +1,12 @@
-import axios from "axios";
-import { useState, useEffect } from "react";
-import Card from "../components/Card";
-import "../helper/axios";
+import Article from "../components/Article";
 const Home = () => {
-    const [movies, setMovie] = useState();
-    useEffect(() => {
-        // axios.get({
-        //     params : {
-        //         s : "batman",
-        //         page : 2
-        //     }
-        // })
-    }, [])
     return (
         <div className="container">
-            <div className="flex flex-wrap">
-                <Card>
-                    <div className="flex">
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                </Card>
+            <div className="text-left my-3">
+                <h2 className="font-extrabold text-3xl">Latest Movies</h2>
+            </div>
+            <div className="flex justify-between overflow-scroll">
+                <Article/>
             </div>
         </div>
     )

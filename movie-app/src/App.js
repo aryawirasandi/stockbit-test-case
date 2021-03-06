@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Input from "./components/Input";
 import SearchIcon from "./assets/icons/search.svg";
+import config from "./utils/config";
 function App() {
   return (
     <div className="box-border">
@@ -9,7 +10,7 @@ function App() {
           <Navbar className="container bg-blue-400 text-white">
               <div className="flex items-center justify-between">
                   <div>
-                     <h1 className="font-semibold text-2xl hidden sm:block">Movie App</h1>
+                     <h1 className="font-semibold text-2xl hidden sm:block">{config.appName}</h1>
                   </div>
                   <div className="relative">
                     <Input placeholder="Search your movie"/>
