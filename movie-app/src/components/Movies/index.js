@@ -1,11 +1,11 @@
-import Card from "../Card/";
-const Article = () => {
+import Card from "../Card";
+const Movies = () => {
     return (
-        <Card>
+        <Card className="cursor-pointer">
             <div className="flex flex-col">
                 <div>
                     <picture>
-                        <img src="https://via.placeholder.com/150" alt="article one" className="w-full h-40 object-cover"/>
+                        <img src="https://via.placeholder.com/150" alt="movie one" className="w-full h-40 object-cover hover:opacity-50"/>
                     </picture>
                 </div>
                 <div className='container flex flex-col justify-between'>
@@ -33,4 +33,4 @@ const Article = () => {
     )
 }
 
-export default Article;
+export default Movies;
