@@ -9,3 +9,11 @@
 .form-control {
   @apply px-3 py-2 rounded-full outline-none text-black focus:shadow-md focus:outline-none placeholder-opacity-20 placeholder-black text-base;
 }
+
+body{
+  @apply bg-gray-100 h-full;
+}
+
+.badge{
+  @apply p-2 rounded-full border-none bg-blue-400 text-white text-center min-w-1/2 mx-2 sm:min-w-1/4 hover:bg-blue-300 hover:opacity-50
+}
